@@ -12,9 +12,7 @@ public class numeros {
     
     public numeros(){
         
-        num1=0;
-        num2=0;
-        num3=0;
+
     }
     
     public numeros(int num1,int num2,int num3){
