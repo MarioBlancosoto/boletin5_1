@@ -11,7 +11,7 @@ public class Vendasanuais {
     
     
     public Vendasanuais (){
-        productos = 0;
+        
     }
     
     public Vendasanuais(int productos){
