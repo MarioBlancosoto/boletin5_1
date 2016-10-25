@@ -22,7 +22,8 @@ public class Boletin5_4 {
        else if(persona2>persona1){
         System.out.println(" a persona 2 pesa " + (persona2-persona1)+" kg más que la persona 1 ");
     }
-        
+        else
+           System.out.println(" as persoas pesan o mesmo " );
     }
     
 }
