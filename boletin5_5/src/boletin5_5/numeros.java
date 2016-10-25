@@ -36,16 +36,16 @@ public class numeros {
     
     public void numeromayor(){
         
-        if(num1>num2&num1>num3){
+        if(num1>num2&&num1>num3){
             System.out.println("o primeiro número e maior ");
         }
         
-        else if (num2>num1&num2>num3){
+        else if (num2>num1&&num2>num3){
             
             System.out.println("o segundo número e o maior ");
         }
         
-        else if(num3>num2&num3>num1) {
+        else if(num3>num2&&num3>num1) {
             System.out.println("o número 3 e o maior ");
         }
         
