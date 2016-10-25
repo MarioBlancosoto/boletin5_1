@@ -29,7 +29,7 @@ public class Vendasanuais {
        if (productos <= 100){
            System.out.println(" o artigo de consumo e baixo ");
        }
-       else if(productos>100&productos<500){
+       else if(productos>100&&productos<500){
        System.out.println(" o artigo de consumo e medio ");
    }
        else if(productos <=100){
