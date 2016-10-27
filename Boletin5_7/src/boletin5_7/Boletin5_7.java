@@ -16,7 +16,7 @@ public class Boletin5_7 {
        
         
 
-       do {        
+             
            select = Integer.parseInt(JOptionPane.showInputDialog("\n teclea 1 para el circulo \n teclea 2 para el cuadrado \n teclea 3 para el triangulo \n teclea 0 para salir "));
                  
       switch(select){
@@ -27,9 +27,12 @@ public class Boletin5_7 {
           break;
           case 3 : obj.triangulo(0, 0);
           break;
+              
+          default:
+              JOptionPane.showMessageDialog(null, "Error,seleccione otro número ");
       }
     } 
  
-       while (select!=0);
-    }
+      
+    
 }
