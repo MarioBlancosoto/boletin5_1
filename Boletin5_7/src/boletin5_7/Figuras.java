@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 
 
 public class Figuras {
-    private int lado,base,altura,radio,triangulo,cuadrado,circulo,select;
+    private float lado,base,altura,radio,triangulo,cuadrado,circulo,select;
     private final double pi=3.14;
     
     
@@ -15,7 +15,7 @@ public class Figuras {
         
     }
     
-    public Figuras(int lado,int base,int altura,int radio){
+    public Figuras(float lado,float base,float altura,float radio){
         this.lado = lado;
         this.base = base;
         this.altura = altura;
@@ -25,18 +25,18 @@ public class Figuras {
     
     
     
-    public void cuadrado(int lado){
+    public void cuadrado(float lado){
         lado = Integer.parseInt(JOptionPane.showInputDialog(" inserte el lado"));
         JOptionPane.showMessageDialog(null,"el area del cuadrado es " +lado*lado);
     }
     
-    public void circulo (int radio){
+    public void circulo (float radio){
         radio = Integer.parseInt(JOptionPane.showInputDialog(" Inserte el radio "));
         JOptionPane.showMessageDialog(null," el area de la circunferencia es "+ pi*Math.pow(radio,2));
     }
     
     
-    public void triangulo(int base,int altura){
+    public void triangulo(float base,float altura){
         base = Integer.parseInt(JOptionPane.showInputDialog(" inserte la base "));
         altura = Integer.parseInt(JOptionPane.showInputDialog(" Inserte la altura " ));
         JOptionPane.showMessageDialog(null," el area del triangulo es "+ (base*altura)/2);
