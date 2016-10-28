@@ -26,19 +26,19 @@ public class Figuras {
     
     
     public void cuadrado(float lado){
-        lado = Integer.parseInt(JOptionPane.showInputDialog(" inserte el lado"));
+        lado = Float.parseFloat(JOptionPane.showInputDialog(" inserte el lado"));
         JOptionPane.showMessageDialog(null,"el area del cuadrado es " +lado*lado);
     }
     
     public void circulo (float radio){
-        radio = Integer.parseInt(JOptionPane.showInputDialog(" Inserte el radio "));
+        radio = Float.parseFloat(JOptionPane.showInputDialog(" Inserte el radio "));
         JOptionPane.showMessageDialog(null," el area de la circunferencia es "+ pi*Math.pow(radio,2));
     }
     
     
     public void triangulo(float base,float altura){
-        base = Integer.parseInt(JOptionPane.showInputDialog(" inserte la base "));
-        altura = Integer.parseInt(JOptionPane.showInputDialog(" Inserte la altura " ));
+        base = Float.parseFloat(JOptionPane.showInputDialog(" inserte la base "));
+        altura = Float.parseFloat(JOptionPane.showInputDialog(" Inserte la altura " ));
         JOptionPane.showMessageDialog(null," el area del triangulo es "+ (base*altura)/2);
         
     }
