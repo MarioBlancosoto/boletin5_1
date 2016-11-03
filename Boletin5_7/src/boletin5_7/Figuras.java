@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 
 public class Figuras {
     private float lado,base,altura,radio,triangulo,cuadrado,circulo;
-    private final double pi=3.14;
+    private final double Pi=3.14;
     
     
     
